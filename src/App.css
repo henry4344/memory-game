@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card-holder {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  justify-content: center;
+}
+
+.card {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+  font-size: xx-large;
+  margin: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.counter,
+.reset {
+  margin: 0.5rem;
+}
